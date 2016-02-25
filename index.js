@@ -44,7 +44,7 @@ module.exports = {
              uri: ['vodo']
          },
 
-         subtitle: 'ysubs',
+         subtitle: 'OpenSubtitles',
          metadata: 'Trakttv',
          tvst: 'TVShowTime',
      },
