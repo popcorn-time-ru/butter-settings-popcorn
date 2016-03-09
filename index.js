@@ -18,7 +18,7 @@ module.exports = {
              name: 'Movies',
              uri: ['yts?'
                    +'&apiURL='
-                     + 'https://api-fetch.website/movies/,'
+                     + 'https://movies.api-fetch.website/,'
 //                     + 'cloudflare+https://xor.image.yt,'
 //                     + 'cloudflare+http://xor.image.yt'
                   ]
@@ -28,7 +28,7 @@ module.exports = {
              name: 'Series',
              uri: ['TVApi?'
                    +'&apiURL='
-                     + 'https://api-fetch.website/tv/,'
+                     + 'https://tv.api-fetch.website/,'
 //                     + 'https://odgoglfi7uddahby.onion.to/,'
 //                     + 'http://tv.ytspt.re/'
                   ]
