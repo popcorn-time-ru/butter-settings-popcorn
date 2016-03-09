@@ -26,7 +26,7 @@ module.exports = {
          tvshow: {
              order: 2,
              name: 'Series',
-             uri: ['tvapi?'
+             uri: ['TVApi?'
                    +'&apiURL='
                      + 'https://api-fetch.website/tv/,'
 //                     + 'https://odgoglfi7uddahby.onion.to/,'
