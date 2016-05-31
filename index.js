@@ -18,8 +18,8 @@ module.exports = {
              name: 'Movies',
              uri: ['yts?'
                    +'&apiURL='
-                     + 'https://movies.api-fetch.website/,'
-                     + 'cloudflare+https://movies.api-fetch.website,'
+                     + 'https://movies-v2.api-fetch.website/,'
+//                     + 'cloudflare+https://movies-v2.api-fetch.website,'
 //                     + 'cloudflare+http://xor.image.yt'
                   ]
          },
@@ -28,8 +28,8 @@ module.exports = {
              name: 'Series',
              uri: ['TVApi?'
                    +'&apiURL='
-                     + 'https://tv.api-fetch.website/,'
-                     + 'cloudflare+https://tv.api-fetch.website,'
+                     + 'https://tv-v2.api-fetch.website/,'
+//                     + 'cloudflare+https://tv-v2.api-fetch.website,'
 //                     + 'http://tv.ytspt.re/'
                   ]
          },
