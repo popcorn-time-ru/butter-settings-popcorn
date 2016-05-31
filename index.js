@@ -16,7 +16,7 @@ module.exports = {
          movie: {
              order: 1,
              name: 'Movies',
-             uri: ['yts?'
+             uri: ['MovieApi?'
                    +'&apiURL='
                      + 'https://movies-v2.api-fetch.website/,'
 //                     + 'cloudflare+https://movies-v2.api-fetch.website,'
