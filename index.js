@@ -33,10 +33,15 @@ module.exports = {
 //                     + 'http://tv.ytspt.re/'
                   ]
          },
-         anime: {
+       anime: {
              order: 3,
              name: 'Anime',
-             uri: ['haruhichan']
+             uri: ['AnimeApi?'
+                   +'&apiURL='
+                     + 'https://anime.api-fetch.website/,'
+//                     + 'cloudflare+https://tv-v2.api-fetch.website,'
+//                     + 'http://tv.ytspt.re/'
+                  ]
          },
          indie: {
              order: 4,
