@@ -19,7 +19,7 @@ module.exports = {
              uri: ['MovieApi?'
                    +'&apiURL='
                      + 'https://movies-v2.api-fetch.website/,'
-//                     + 'cloudflare+https://movies-v2.api-fetch.website,'
+                     + 'cloudflare+https://movies-v2.api-fetch.website,'
 //                     + 'cloudflare+http://xor.image.yt'
                   ]
          },
@@ -29,7 +29,7 @@ module.exports = {
              uri: ['TVApi?'
                    +'&apiURL='
                      + 'https://tv-v2.api-fetch.website/,'
-//                     + 'cloudflare+https://tv-v2.api-fetch.website,'
+                     + 'cloudflare+https://tv-v2.api-fetch.website,'
 //                     + 'http://tv.ytspt.re/'
                   ]
          },
