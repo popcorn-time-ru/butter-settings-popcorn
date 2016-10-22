@@ -52,9 +52,7 @@ module.exports = {
          subtitle: 'OpenSubtitles',
          metadata: 'Trakttv',
          tvst: 'TVShowTime',
-         torrentCache: 'TorrentCache',
-         YSubs: 'ysubs',
-         
+         torrentCache: 'TorrentCache'         
      },
     updateEndpoint: {
         url: 'https://popcorntime.sh/',
