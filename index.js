@@ -1,13 +1,13 @@
 module.exports = {
     projectName: 'Popcorn Time',
-    projectUrl: 'http://popcorntime.sh',
+    projectUrl: 'https://popcorntime.sh',
     projectTwitter: 'popcorntimetv',
-    projectFacebook: 'PopcornTimeTV',
-    projectGooglePlus: 'PopcornTime',
-    projectBlog: 'http://blog.popcorntime.sh/',
+    projectFacebook: 'PopcornTimedotSh',
+    projectGooglePlus: 'popcorntimeshplus',
+    projectBlog: 'https://blog.popcorntime.sh/',
     projectForum: 'https://www.reddit.com/r/PopcornTime',
 
-    statusUrl: 'https://status.popcorntime.sh',
+    statusUrl: 'http://status.popcorntime.sh',
     changelogUrl: 'https://github.com/popcorn-official/popcorn-desktop/commits/master',
     issuesUrl: 'https://github.com/popcorn-official/popcorn-desktop/issues',
     sourceUrl: 'https://github.com/popcorn-official/popcorn-desktop/',
@@ -39,7 +39,7 @@ module.exports = {
              uri: ['AnimeApi?'
                    +'&apiURL='
                      + 'https://anime.api-fetch.website/,'
-//                     + 'cloudflare+https://tv-v2.api-fetch.website,'
+                     + 'cloudflare+https://anime.api-fetch.website,'
 //                     + 'http://tv.ytspt.re/'
                   ]
          },
