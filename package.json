@@ -1,7 +1,7 @@
 {
-  "name": "butter-settings-popcorntime.io",
+  "name": "butter-settings-popcorntime.ru",
   "version": "0.0.1",
-  "description": "Settings for butter for the Popcorn Time Project",
+  "description": "Settings for butter for the Popcorn Time Ru Project",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
