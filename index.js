@@ -4,10 +4,10 @@ module.exports = {
     projectTwitter: 'popcorntimetv',
     projectFacebook: 'PopcornTimedotSh',
     projectGooglePlus: 'popcorntimeshplus',
-    projectBlog: 'https://blog.popcorn-api.io/',
-    projectForum: 'https://www.reddit.com/r/PopcornTime',
+    projectBlog: 'https://blog.popcorntime.app/',
+    projectForum: 'https://www.reddit.com/r/PopcornTimeApp',
 
-    statusUrl: 'http://status.popcorn-api.io',
+    statusUrl: 'http://status.popcorntime.app',
     changelogUrl: 'https://github.com/popcorn-time-ru/popcorn-desktop/commits/master',
     issuesUrl: 'https://github.com/popcorn-time-ru/popcorn-desktop/issues',
     sourceUrl: 'https://github.com/popcorn-time-ru/popcorn-desktop/',
@@ -19,7 +19,6 @@ module.exports = {
              uri: ['MovieApi?'
                     +'&apiURL='
                     + 'https://popcorn-ru.tk/,'
-                    + 'cloudflare+https://popcorn-ru.tk/,'
                   ]
          },
          tvshow: {
@@ -28,7 +27,14 @@ module.exports = {
              uri: ['TVApi?'
                     +'&apiURL='
                     + 'https://popcorn-ru.tk/,'
-                    + 'cloudflare+https://popcorn-ru.tk/,'
+                  ]
+         },
+         anime: {
+             order: 3,
+             name: 'Anime',
+             uri: ['AnimeApi?'
+                   +'&apiURL='
+                     + 'https://anime.api-fetch.sh/'
                   ]
          },
          subtitle: 'OpenSubtitles',
@@ -37,10 +43,10 @@ module.exports = {
          torrentCache: 'TorrentCache'
     },
     updateEndpoint: {
-        url: 'https://popcorn-api.io/',
+        url: 'https://popcorntime.app/',
         index: 0,
         proxies: [{
-            url: 'https://popcorn-api.io/'
+            url: 'https://popcorntime.app/'
         }]
     },
     updateKey: '-----BEGIN PUBLIC KEY-----\n' +
